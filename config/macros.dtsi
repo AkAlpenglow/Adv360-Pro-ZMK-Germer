@@ -2,13 +2,13 @@ macro_emoticonmenu: macro_emoticonmenu{
 compatible = "zmk,behavior-macro";
 label = "macro_emoticonmenu";
 #binding-cells = <0>;
-bindings = <&sk LC>, <&sk LG>, <&kp SPACE>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&kp L>;
 };
 macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot";
 #binding-cells = <0>;
-bindings = <&sk LS>, <&sk LG>, <&kp N4>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&kp L>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
