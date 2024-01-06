@@ -2,7 +2,7 @@ macro_emoticonmenu: macro_emoticonmenu{
 compatible = "zmk,behavior-macro";
 label = "macro_emoticonmenu";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LGUI>, <&macro_press &kp LCTRL>, <&macro_tap &kp SPACE>, <&macro_release &kp LGUI>, <&macro_release &kp LCTRL>
+bindings = <&macro_press &kp LGUI &kp LCTRL>, <&macro_tap &kp SPACE>, <&macro_release &kp LGUI &kp LCTRL>
 };
 macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
