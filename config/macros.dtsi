@@ -5,7 +5,7 @@ label = "macro_emoticonmenu";
 bindings
 = <&macro_press &kp LGUI &kp LSHIFT>
 , <&macro_tap &kp N4>
-, <&macro_release &kp LGUI &kp LSHIFT>
+, <&macro_release &kp LGUI &kp LSHIFT>;
 };
 macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
@@ -14,7 +14,7 @@ label = "macro_screenshot";
 bindings
 = <&macro_press &kp LGUI &kp LCTRL>
 , <&macro_tap &kp SPACE>
-, <&macro_release &kp LGUI &kp LCTRL>
+, <&macro_release &kp LGUI &kp LCTRL>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
